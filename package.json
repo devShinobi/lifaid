@@ -4,6 +4,11 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
+  "homepage": "https://devshinobi.github.io/lifaid/",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
+  },
   "name": "stackoverflow-clone",
   "private": true,
   "version": "0.0.0",
