@@ -1,14 +1,5 @@
 {
   "homepage": "https://devshinobi.github.io/lifaid/",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
-  "homepage": "https://devshinobi.github.io/lifaid/",
-  "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
-  },
   "name": "stackoverflow-clone",
   "private": true,
   "version": "0.0.0",
@@ -17,7 +8,9 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "date-fns": "^2.30.0",
